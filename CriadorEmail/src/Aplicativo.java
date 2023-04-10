@@ -3,6 +3,8 @@ public class Aplicativo {
     // uma senha, ter metodos para mudar a senha, definir a capacidade da caixa de email, definir endereço de email
     // alternativo e possui métodos para exibi o nome, email e a capacidade da caixa de email.
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Email em1 = new Email("Paulo", "Antonio");
+
+        System.out.println(em1.mostrar());
     }
 }
